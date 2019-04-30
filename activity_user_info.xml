@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9d56d3c0"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:paddingTop="15dp"
+        android:text="Enter Your Informatio Below"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:alpha="1"
+        android:hint="Enter Username"
+        android:background="#9d2a8174"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:alpha="1"
+        android:textAlignment="center"
+        android:hint="Enter Your Passeword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:background="#9d2a8174"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="#5a75c95c"
+        android:text="sign in"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:background="#5a75c95c"
+        android:text="sign up"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

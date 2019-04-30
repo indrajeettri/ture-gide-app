@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#c6607dd5"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130sp"
+            android:textColor="#000"
+            android:text="Enter Your Information below"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter user name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reenter password"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phon no."
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/bun3"
+            android:layout_width="167dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:text="Submit"
+            android:background="#8edfccc7"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shanchi">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:background="#b7b0841e"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ViewFlipper
+            android:id="@+id/khajuraho1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/sanch3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/sanch2"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:src="@drawable/sanchi"
+                    android:scaleType="centerCrop"/>
+
+            </LinearLayout>
+
+        </ViewFlipper>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="next"
+            android:textAlignment="center"
+            android:background="#5618C7"
+            android:layout_gravity="center"
+            android:textColor="#43C718"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="280dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="60dp"
+            android:text="find a Place"
+            android:textAlignment="center"
+            android:background="#5618C7"
+            android:layout_gravity="center"
+            android:textColor="#43C718"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:background="#a67fc0cc"
+                    android:text="Sanchi==>>  Sanchi Stupa from Eastern gate, Madhya Pradesh.jpg The Great Stupa at Sanchi, Eastern Gateway. Sanchi is located in India Sanchi .Sanchi Show map of India Show map of Madhya Pradesh Show all General information Type	Stupa and surrounding buildings Architectural style	Buddhist Location	Sanchi Town, Madhya Pradesh, India, Asia Construction started	3rd century BCE Height	16.46 m (54.0 ft) (dome of the Great Stupa) Dimensions Diameter	36.6 m (120 ft) (dome of the Great Stupa) UNESCO World Heritage Site Official name	Buddhist Monument at Sanchi Criteria	Cultural: i, ii, iii, iv ,vi Reference	524 Inscription	1989 (13th Session)Coordinates: 23.479223°N 77.739683°E Sanchi Stupa, also written Sanci, is a Buddhist complex, famous for its Great Stupa, on a hilltop at Sanchi Town in Raisen District of the State of Madhya Pradesh, India. It is located in 46 kilometres (29 mi) north-east of Bhopal, capital of Madhya Pradesh. The Great Stupa at Sanchi is one of the oldest stone structures in India, and an important monument of Indian Architecture.[1] It was originally commissioned by the emperor Ashoka in the 3rd century BCE. Its nucleus was a simple hemispherical brick structure built over the relics of the Buddha. It was crowned by the chatra, a parasol-like structure symbolising high rank, which was intended to honour and shelter the relics. The original construction work of this stupa was overseen by Ashoka, whose wife Devi was the daughter of a merchant of nearby Vidisha. Sanchi was also her birthplace as well as the venue of her and Ashoka's wedding. In the 1st century BCE, four elaborately carved toranas (ornamental gateways) and a balustrade encircling the entire structure were added. The Sanchi Stupa built during Mauryan period was made of bricks. The composite flourished until the 11th century. Sanchi is the center of a region with a number of stupas, all within a few miles of Sanchi, including Satdhara (9 km to the W of Sanchi, 40 stupas, the Relics of Sariputra and Mahamoggallana, now enshrined in the new Vihara, were unearthed there), Morel Khurd (on a fortified hilltop with 60 stupas), Bhojpur and Andher (respectively 11 km and 17 km SE of Sanchi), and Sonari (10km SW of Sanchi).[2][3] Further south, about 100 km away, is Saru Maru. Bharhut is 300 km to the northeast."
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="23sp"
+                    android:textStyle="italic" />
+            </ScrollView>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/but3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="button"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

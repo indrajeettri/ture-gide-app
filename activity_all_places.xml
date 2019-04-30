@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllPlaces">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/orcha4"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#8a2f39a8"
+            android:text="@string/khajuraho"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#aecf644e"
+            android:text="orcha"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="@color/colorAccent"
+            android:text="sanchi"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#1A4AC5"
+            android:text="bhopal"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#F43711"
+            android:text="satpura"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="@color/colorAccent"
+            android:text="Maihar"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#1A4AC5"
+            android:text="BhedaGhat"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#F43711"
+            android:text="Gwaliyar"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="@color/colorAccent"
+            android:text="kanhanationnalpark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#1A4AC5"
+            android:text="BandhavGharNationalPark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#F43711  "
+            android:text="Maihar"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="@color/colorAccent"
+            android:text="Sagaur"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#1A4AC5"
+            android:text="Indor"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#F43711  "
+            android:text="Uchahra"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
